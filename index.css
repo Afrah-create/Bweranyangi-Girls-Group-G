@@ -147,7 +147,7 @@ header {
 }
 
 .activities h2 {
-    color: black;
+    color: var(--primary-color);
     margin-bottom: 2rem;
     font-size: 2rem;
 }
