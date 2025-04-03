@@ -89,8 +89,6 @@ document.addEventListener('DOMContentLoaded', function() {
             prevSlide();
         }
     }
-   
-
     const themeToggle = document.getElementById('themeToggle');
     const body = document.body;
     const icon = themeToggle.querySelector('i');
