@@ -220,13 +220,3 @@ section {
     padding: 30px 20px;
     text-align: center;
 }
-
-.footer-legal a {
-    color: #ffeb3b; /* Yellowish color for better visibility */
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.footer-legal a:hover {
-    text-decoration: underline;
-}
