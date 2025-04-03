@@ -121,6 +121,20 @@ nav ul li a:hover {
     font-size: 20px;
     margin-right: 10px;
 }
+.fa-facebook-f{
+    color: blue;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+.fa-twitter{
+    color: aqua;
+    border-radius: 50%;
+}
+.fa-instagram{
+    color: #ff1900;
+    background-color: aliceblue;
+    border-radius: 30%;
+}
 /* Footer  */
 .main-footer {
     background: #00332c; /* Darker shade for better contrast */
@@ -137,4 +151,19 @@ nav ul li a:hover {
 
 .footer-legal a:hover {
     text-decoration: underline;
+}
+/* Mobile Menu Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+    
+    nav ul.active {
+        display: flex;
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
 }
