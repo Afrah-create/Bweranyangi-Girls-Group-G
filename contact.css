@@ -151,13 +151,6 @@
     background: #00332c; /* Darker shade for better contrast */
 }
 
-.footer-legal a {
-    color: #ffeb3b; /* Yellowish color for better visibility */
-}
-
-.footer-legal a:hover {
-    text-decoration: underline;
-}
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
